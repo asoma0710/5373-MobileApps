@@ -20,6 +20,7 @@
 I have created various routes to fetch data from mongodb. 
 
 ## Setup and Installation
+----Install all the packages in requirements.txt---
 1.source myvenv/bin/activate
 2.python3 mongomanager.py
 3.python3 loadMongo.py 2
