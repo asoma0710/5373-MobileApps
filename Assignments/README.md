@@ -1,5 +1,8 @@
-##  Assignments
+##  Assignments Folder
 
-|   #   | Folder Link | Assignment Description |
-| :---: | ----------- | ---------------------- |
-|   0   | link 0      | description 0          |
+| #  | Folder Link | Assignment Description                  |
+|:--:|-------------|-----------------------------------------|
+| 1  | [A03](./A03/README.md)  | [Create Server & Run API](./A03/README.md)
+| 2 | [A04](./A04/README.md) | [Candy Store API](./A04/README.md)
+|3 | [A05](./A05/README.md) | [React + FastAPI + MongoDB+ all assignment from A05 to A07](./A05/README.md)
+
