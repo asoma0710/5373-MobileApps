@@ -6,6 +6,11 @@
 | 2 | [A04](./A04/README.md) | [Candy Store API with FastAPI and MongoDB](./A04/README.md)
 |3 | [A05](./A05/README.md) | [Candy Store Mobile App with React Native A05,A06,A07 All Assignments code is posted here](./A05/README.md)
 
+
+
+## Repository Structure
+
+```plaintext
 5373-MobileApps
 ├── Assignments
 │   ├── A03
@@ -46,4 +51,3 @@
 │   │   │   ├── images
 │   │   │   └── myvenv
 └── README.md
-
