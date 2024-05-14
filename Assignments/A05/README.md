@@ -1,5 +1,4 @@
-# Candy Store Mobile App with React Native
-
+# Candy Store Mobile App with React Native A05,A06,A07 All Assignments code is posted here
 ### Files
 
 | #   | File                                     | Description                                                |
@@ -7,12 +6,9 @@
 | 1   | [api.py](./api.py)                       | Backend API made with FastAPI.                             |
 | 2   | [App.js](./App.js)                       | Main entry point for the React Native application.         |
 | 3   | [client](./client)                       | Client-side code for the mobile application.               |
-| 4   | [components/](./components/)             | Directory containing React components for the app.         |
-| 5   | [navigation/](./navigation/)             | Navigation setup for the app.                              |
-| 6   | [screens/](./screens/)                   | Directory containing SignIn,SignUp,Home,Search,Location screens.            |
-| 7   | [utils/](./utils/)                       | Utility functions and helpers.                             |
-| 8   | [assets/](./assets/)                     | Directory containing image and media assets.               |
-| 9   | [images/](./images/)                     | Directory for storing images used in the app.              |
+| 4  | [screens/](./client/screens/)                   | Directory containing SignIn,SignUp,Home,Search,Location,Chat,Camera screens.            |
+| 5  | [assets/](./client/assets/)                     | Directory containing image and media assets.               |
+| 7   | [images/](./client/images/)                     | Directory for storing images used in the app.              |
 | 10  | [myvenv](./myvenv)                       | Virtual environment directory with installed packages.     |
 | 11  | [A05.service](./A05.service)             | Service file to register and manage the API service.       |
 | 12  | [package.json](./package.json)           | Lists all the dependencies and scripts for the project.    |
@@ -24,23 +20,22 @@
 ---
 
 ## Description
-(You can fill this section in with the detailed description of what you did.)
+created a mobile app with a working frontend using react native and fastapi and mongodb at the server side.
 
 ## Setup and Installation
-(You can describe the setup process here.)
+1) in client just run npm start
+2) Make sure your api is running in the server by running python3 api.py after logging into digital ocean server 
 
 ## API Endpoints
-(You can provide details about the various API endpoints here.)
+(Different API's been written to fetch detals from mobile_app,candy_store dbs in mongo with collections Users, Location,candies,categories,images.)
 
 ## Components and Screens
 (You can describe the different components and screens used in the app here.)
 
-## Testing
-(You can provide details on how to test the app and the API here.)
+
 
 ## Assets
-(You can describe the assets used in the app here.)
+(The background images i used and the landing page loop video are provided here.)
 
 ## Navigation
-(You can describe the navigation structure of the app here.)
-
+Used only bottom navigator ddirectly in app.js rest of the files such as navigation,components are irrelavent.
