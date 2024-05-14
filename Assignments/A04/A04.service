@@ -1,0 +1,13 @@
+ [Unit]
+    Description=FastAPI app
+    After=network.target
+
+    [Service]
+    User=root
+    WorkingDirectory=/root/04-A04/candyAPI
+    ExecStart=/root/A03/myvenv/bin/python /root/04-A04/candyAPI/api.py
+
+    Restart=always
+
+    [Install]
+    WantedBy=multi-user.target

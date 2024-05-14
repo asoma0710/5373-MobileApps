@@ -1,0 +1,13 @@
+ [Unit]
+    Description=FastAPI app
+    After=network.target
+    
+    [Service]
+    User=root
+    WorkingDirectory=/root/5373-MobileApps/Assignments/A03
+    #WorkingDirectory=/root/4443-5373-Mobile-Apps/Assignments/03-A03/api_files
+    ExecStart=/root/5373-MobileApps/Assignments/A03/myvenv/bin/python /root/5373-MobileApps/Assignments/A03/api.py
+    Restart=always
+    
+    [Install]
+    WantedBy=multi-user.target
