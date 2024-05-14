@@ -12,4 +12,4 @@ Here i created an account on digital ocean and set it as my server and created a
 
 ### Instructions
 
-- N/A
+- Just run python3 api.py but before that install virtual machine, uvicorn and fastapi
