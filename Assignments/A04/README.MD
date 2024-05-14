@@ -12,20 +12,22 @@
 | 6   | [candyDB.json](./candyDB.json)       | JSON file containing candy data to populate the database.|
 | 7   | [test-A04.py](./test-A04.py)         | Script to test API routes.                              |
 | 8   | [myvenv](./myvenv)                   | Virtual environment directory with installed packages.  |
-| 9   | [README.md](./README.md)             | Project documentation file.                             |
-| 10  | [requirements.txt](./requirements.txt) | Lists all the required packages needed for the project. |
+| 9  | [requirements.txt](./requirements.txt) | Lists all the required packages needed for the project. |
 
 ---
 
 ## Description
-I have created various routes to fetch data from mongodb. I created a db "candy_store" in mongo and stored all the details of candy with following basemodel
+I have created various routes to fetch data from mongodb. 
 
 ## Setup and Installation
-(You can describe the setup process here.)
+1.source myvenv/bin/activate
+2.python3 mongomanager.py
+3.python3 loadMongo.py 2
+4.mongosh (check for your database and list the populated candies)
+5.python3 api.py
 
 ## API Endpoints
-(You can provide details about the various API endpoints here.)
+1.Categories 2.Images based on Candy_Id etc
 
 ## Testing
-(You can provide details on how to test the API here.)
-
+gave test cases for all the routes
