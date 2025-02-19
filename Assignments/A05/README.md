@@ -35,4 +35,4 @@ created a mobile app with a working frontend using react native and fastapi and 
 (The background images i used and the landing page loop video are provided here.)
 
 ## Navigation
-Used only bottom navigator ddirectly in app.js rest of the files such as navigation,components are irrelavent.
+Used only bottom navigator directly in app.js rest of the files such as navigation,components are irrelavent.
