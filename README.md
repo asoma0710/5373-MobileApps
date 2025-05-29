@@ -1,8 +1,11 @@
+# 🍬 Candy Store Application
 
-## Arun Soma
-#### Email: arunedusoma@gmail.com
-#### Image:
-<img src="https://github.com/asoma0710/asoma0710/blob/main/photo_passsize.jpg" width="170">
+This project is a two-part demo of a full-stack Candy Store Application. It showcases user interactions, product listings, and map locations.
 
-#### Avatar:
-<img src="https://github.com/asoma0710/asoma0710/blob/main/chotaBheem.jpg" width="100">
+## 📽️ Project Demonstration Videos
+
+- **Part 1 – User Features (Browsing, Adding to Cart, Checkout)**  
+  [Watch on YouTube](https://youtu.be/KQhI1Y4Dh8Y)
+
+- **Part 2 – Admin Features (Product Management, Order Tracking)**  
+  [Watch on YouTube](https://youtu.be/xEW-b5oX0NE)
