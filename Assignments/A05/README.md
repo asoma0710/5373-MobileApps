@@ -53,7 +53,7 @@ Experience the complete walkthrough of the application through the following You
 
 | #  | Name                            | Description                                                |
 |----|---------------------------------|------------------------------------------------------------|
-| 1  | `App.js`                        | Root file for launching the mobile application             |
+| 1  | `client/App.js`                        | Root file for launching the mobile application             |
 | 2  | `api.py`                        | Backend API built using FastAPI                            |
 | 3  | `client/screens/`               | Contains all mobile app screens (Home, Chat, Map, etc.)    |
 | 4  | `client/assets/`                | Background images and landing page video                   |
