@@ -1,38 +1,90 @@
-# Candy Store Mobile App with React Native A05,A06,A07 All Assignments code is posted here
-### Files
+# 🍭 Candy Store Mobile App with React Native
 
-| #   | File                                     | Description                                                |
-| :-: | ---------------------------------------- | ---------------------------------------------------------- |
-| 1   | [api.py](./api.py)                       | Backend API made with FastAPI.                             |
-| 2   | [App.js](./App.js)                       | Main entry point for the React Native application.         |
-| 3   | [client](./client)                       | Client-side code for the mobile application.               |
-| 4  | [screens/](./client/screens/)                   | Directory containing SignIn,SignUp,Home,Search,Location,Chat,Camera screens.            |
-| 5  | [assets/](./client/assets/)                     | Directory containing image and media assets.               |
-| 6  | [images/](./client/images/)                     | Directory for storing images used in the app.              |
-| 7  | [myvenv](./myvenv)                       | Virtual environment directory with installed packages.     |
-| 8  | [A05.service](./A05.service)             | Service file to register and manage the API service.       |
-| 9  | [package.json](./package.json)           | Lists all the dependencies and scripts for the project.    |
-| 10  | [package-lock.json](./package-lock.json) | Dependency tree lock file.                                 |
-| 11  | [app.json](./app.json)                   | Configuration file for the React Native app.               |
-| 12 | [babel.config.js](./babel.config.js)     | Babel configuration for the project.                       |
-| 13 | [README.md](./README.md)                 | Project documentation file.                                |
+A fully functional e-commerce mobile application built with **React Native** for the frontend and **FastAPI + MongoDB** on the backend. This project represents assignments A05, A06, and A07 combined into a single comprehensive candy store experience.
 
 ---
 
-## Description
-created a mobile app with a working frontend using react native and fastapi and mongodb at the server side.
+## 📽️ Demo Videos
 
-## Setup and Installation
-1) in client just run npm start
-2) Make sure your api is running in the server by running python3 api.py after logging into digital ocean server 
+Experience the complete walkthrough of the application through the following YouTube demos:
 
-## API Endpoints
-(Different API's been written to fetch detals from mobile_app,candy_store dbs in mongo with collections Users, Location,candies,categories,images.)
+- **Part 1 – User Interaction (Login, Browse, Cart, Checkout):**  
+  [▶ Watch on YouTube](https://youtu.be/KQhI1Y4Dh8Y)
+
+- **Part 2 – Admin Operations (Product Management, Location Services):**  
+  [▶ Watch on YouTube](https://youtu.be/xEW-b5oX0NE)
+
+---
+
+## 📦 Features Overview
+
+### 🎯 User-Side Functionalities
+- Browse and search for candies by name and category.
+- Add items to cart and place orders.
+- View interactive maps to see nearby users.
+- Upload images via camera integration.
+- Real-time in-app chat with other users.
+
+### 🛠️ Admin-Side Functionalities
+- Add, update, and remove candy products from MongoDB.
+- Handle image uploads to backend server.
+- Manage user location and category data.
+- Perform price adjustments and stock updates.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend (React Native)
+- **Framework:** React Native w/ Expo SDK
+- **Navigation:** Bottom tab navigation
+- **Libraries:** Google Maps API, React Native Camera, Socket.io, etc.
+
+### Backend (FastAPI)
+- **Language:** Python
+- **Framework:** FastAPI
+- **Database:** MongoDB (Collections: Users, Candies, Categories, Images, Locations)
+- **Deployment:** Hosted on DigitalOcean (now deprecated)
+- **Architecture:** RESTful API endpoints for all core operations
+
+---
+
+## 📁 Key Files & Folders
+
+| #  | Name                            | Description                                                |
+|----|---------------------------------|------------------------------------------------------------|
+| 1  | `App.js`                        | Root file for launching the mobile application             |
+| 2  | `api.py`                        | Backend API built using FastAPI                            |
+| 3  | `client/screens/`               | Contains all mobile app screens (Home, Chat, Map, etc.)    |
+| 4  | `client/assets/`                | Background images and landing page video                   |
+| 5  | `client/images/`                | Image resources used across the app                        |
+| 6  | `A05.service`                   | Service file for backend deployment                        |
+| 7  | `package.json` & `package-lock.json` | Lists and locks all dependencies                     |
+| 8  | `myvenv/`                       | Python virtual environment (server-side)                   |
+
+---
+
+## 🚀 Setup Instructions
+
+### Backend API (FastAPI)
+1. SSH into your server.
+2. Navigate to the project directory:  
+   `cd /root/5373-MobileApps/Assignments/A05`
+3. Activate the virtual environment:  
+   `source .venv/bin/activate`
+4. Run the API:  
+   `python api.py`  
+   (Accessible at `localhost:8085`)
+
+### Frontend App (React Native)
+1. Navigate to `client/` folder.
+2. Install dependencies:  
+   `npm install` or `yarn install`
+3. Launch the app with Expo:  
+   `npm start` or `yarn expo start`
+
+---
 
 
 
-## Assets
-(The background images i used and the landing page loop video are provided here.)
-
-## Navigation
-Used only bottom navigator directly in app.js rest of the files such as navigation,components are irrelavent.
+Enjoy your 🍬 Candy Shopping experience!
