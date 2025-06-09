@@ -1,92 +1,83 @@
 # 🍭 Candy Store Mobile App with React Native
 
-A fully functional e-commerce mobile application built with **React Native** for the frontend and **FastAPI + MongoDB** on the backend. This project represents assignments A05, A06, and A07 combined into a single comprehensive candy store experience.
+A fully functional mobile-based e-commerce application built for showcasing a candy shopping experience. This app is developed using **React Native (with Expo SDK)** on the frontend and **FastAPI + MongoDB** on the backend.  
+
+This project combines functionality from assignments **A05**, **A06**, and **A07**, resulting in a complete and polished mobile shopping solution featuring login, browsing, cart management, camera input, location services, and real-time chat.
+
+🔗 **Project Repository**  
+👉 [Click here to view the full project folder on GitHub](https://github.com/asoma0710/5373-MobileApps/tree/main/Assignments/A05)
 
 ---
 
 ## 📽️ Demo Videos
 
-Experience the complete walkthrough of the application through the following YouTube demos:
-
-- **Part 1 – (Login, Browse, Cart, Checkout):**  
+- **Part 1 – Login, Browse, Cart, Checkout:**  
   [▶ Watch on YouTube](https://youtu.be/KQhI1Y4Dh8Y)
 
-- **Part 2 – (Camera, Location Services):**  
+- **Part 2 – Camera & Location Features:**  
   [▶ Watch on YouTube](https://youtu.be/xEW-b5oX0NE)
-
-🔗 [View Project Folder](https://github.com/asoma0710/5373-MobileApps/tree/main/Assignments/A05)
 
 ---
 
-## 📦 Features Overview
+## 📦 Key Features
 
-### 🎯 User-Side Functionalities
-- Browse and search for candies by name and category.
-- Add items to cart and place orders.
-- View interactive maps to see nearby users.
-- Upload images via camera integration.
-- Real-time in-app chat with other users.
+### 👥 User Features
+- User authentication (login)
+- Browse candies by name or category
+- Add candies to cart and checkout
+- Real-time map showing nearby users
+- Camera integration for user uploads
+- In-app chat between users
 
-### 🛠️ Admin-Side Functionalities
-- Add, update, and remove candy products from MongoDB.
-- Handle image uploads to backend server.
-- Manage user location and category data.
-- Perform price adjustments and stock updates.
+### 🧑‍💼 Admin Features
+- Add/update/delete candy items in MongoDB
+- Manage images and product stock
+- Update pricing and categories
+- Track user locations
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Frontend (React Native)
-- **Framework:** React Native w/ Expo SDK
+### 🖥️ Frontend (React Native)
+- **Framework:** React Native + Expo
 - **Navigation:** Bottom tab navigation
-- **Libraries:** Google Maps API, React Native Camera, Socket.io, etc.
+- **Libraries Used:**  
+  - Google Maps API  
+  - React Native Camera  
+  - Socket.io for chat  
+  - AsyncStorage
 
-### Backend (FastAPI)
+### ⚙️ Backend (FastAPI)
 - **Language:** Python
-- **Framework:** FastAPI
-- **Database:** MongoDB (Collections: Users, Candies, Categories, Images, Locations)
-- **Deployment:** Hosted on DigitalOcean (now deprecated)
-- **Architecture:** RESTful API endpoints for all core operations
+- **Database:** MongoDB  
+  Collections: `Users`, `Candies`, `Categories`, `Images`, `Locations`
+- **Server:** REST API hosted on DigitalOcean (previously active)
 
 ---
 
-## 📁 Key Files & Folders
+## 📁 Project Structure
 
-| #  | Name                            | Description                                                |
-|----|---------------------------------|------------------------------------------------------------|
-| 1  | `client/App.js`                        | Root file for launching the mobile application             |
-| 2  | `api.py`                        | Backend API built using FastAPI                            |
-| 3  | `client/screens/`               | Contains all mobile app screens (Home, Chat, Map, etc.)    |
-| 4  | `client/assets/`                | Background images and landing page video                   |
-| 5  | `client/images/`                | Image resources used across the app                        |
-| 6  | `A05.service`                   | Service file for backend deployment                        |
-| 7  | `package.json` & `package-lock.json` | Lists and locks all dependencies                     |
-| 8  | `myvenv/`                       | Python virtual environment (server-side)                   |
-
----
-
-## 🚀 Setup Instructions
-
-### Backend API (FastAPI)
-1. SSH into your server.
-2. Navigate to the project directory:  
-   `cd /root/5373-MobileApps/Assignments/A05`
-3. Activate the virtual environment:  
-   `source .venv/bin/activate`
-4. Run the API:  
-   `python api.py`  
-   (Accessible at `localhost:8085`)
-
-### Frontend App (React Native)
-1. Navigate to `client/` folder.
-2. Install dependencies:  
-   `npm install` or `yarn install`
-3. Launch the app with Expo:  
-   `npm start` or `yarn expo start`
+| File/Folder                   | Description                                                |
+|------------------------------|------------------------------------------------------------|
+| `client/App.js`              | Entry point of the React Native app                        |
+| `client/screens/`            | All screen components (Home, Cart, Map, Chat, etc.)        |
+| `client/assets/`             | Backgrounds, videos, and static assets                     |
+| `client/images/`             | Candy/product images used in UI                            |
+| `api.py`                     | FastAPI backend server with routes                         |
+| `A05.service`                | Service definition for backend deployment                  |
+| `myvenv/`                    | Python virtual environment used for backend development    |
+| `package.json`               | Frontend dependencies                                      |
+| `requirements.txt`           | Backend dependencies                                       |
 
 ---
 
+## 🚀 How to Run the Project
 
+### 🔧 Backend (FastAPI)
 
-Enjoy your 🍬 Candy Shopping experience!
+```bash
+# SSH into server or open terminal
+cd /root/5373-MobileApps/Assignments/A05
+source .venv/bin/activate
+python api.py
