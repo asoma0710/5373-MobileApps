@@ -14,6 +14,8 @@ Experience the complete walkthrough of the application through the following You
 - **Part 2 – (Camera, Location Services):**  
   [▶ Watch on YouTube](https://youtu.be/xEW-b5oX0NE)
 
+🔗 [View Project Folder](https://github.com/asoma0710/5373-MobileApps/tree/main/Assignments/A05)
+
 ---
 
 ## 📦 Features Overview
