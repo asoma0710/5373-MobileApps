@@ -9,10 +9,12 @@ A fully functional e-commerce mobile application built with **React Native** for
 Experience the complete walkthrough of the application through the following YouTube demos:
 
 - **Part 1 – (Login, Browse, Cart, Checkout):**  
-  [▶ Watch on YouTube](https://youtu.be/KQhI1Y4Dh8Y)
+  [![Watch Video](https://img.youtube.com/vi/KQhI1Y4Dh8Y/hqdefault.jpg)](https://youtu.be/KQhI1Y4Dh8Y)
+
 
 - **Part 2 – (Camera, Location Services):**  
-  [▶ Watch on YouTube](https://youtu.be/xEW-b5oX0NE)
+  [![Watch Video](https://img.youtube.com/vi/xEW-b5oX0NE/hqdefault.jpg)](https://youtu.be/xEW-b5oX0NE)
+
 
 ---
 
